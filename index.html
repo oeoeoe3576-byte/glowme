@@ -106,6 +106,20 @@ const colorSwatches=[
 [['#f4eadb','#ffffff']], [['#ef9d7d','#ca80a3']], [['#d7b56c','#bec5d0']], [['#c8a57f','#9da7b3']], [['#ec5b95','#c7a4b6']], [['#f6dbe8','#762a57']], [['#252229','#c6bac0']], [['#e98170','#ae4c76']], [['#e44487','#c6a9b5']]
 ];
 function scoreAnswers(qs,answers,weights){const scores={};Object.keys(weights).forEach(k=>scores[k]=0);let valid=0;qs.forEach((q,i)=>{const a=answers[i];if(a===undefined||a===q[1].length-1&&q[1][a].includes('모르겠'))return;valid++;Object.entries(weights).forEach(([key,m])=>{scores[key]+=m[i]?.[a]||0})});return{scores,valid}}
+const styleByFace={
+'계란형':['광대 중심에서 바깥으로 블러셔를 부드럽게 펴 발라 균형을 살려 보세요.','레이어드·사이드 파트·자연스러운 웨이브를 비교해 보세요.','이마·턱에 불필요한 쉐딩을 과하게 넣지 않는 편이 자연스러울 수 있습니다.'],
+'둥근형':['블러셔를 광대 바깥쪽에서 사선으로 연결해 세로 방향을 강조해 보세요.','정수리 볼륨과 얼굴 옆 레이어를 비교해 보세요.','볼 양옆의 큰 볼륨은 얼굴을 더 둥글게 보이게 할 수 있습니다.'],
+'긴형':['블러셔를 가로 방향으로 연결해 세로 길이를 분산해 보세요.','옆 볼륨과 앞머리·턱선 웨이브를 비교해 보세요.','정수리만 높게 만드는 스타일은 세로 길이를 더 강조할 수 있습니다.'],
+'각진형':['턱선 경계에 소량의 쉐딩을 넓게 펴 바르고 곡선형 블러셔를 시도해 보세요.','턱선을 감싸는 레이어드와 부드러운 웨이브를 비교해 보세요.','턱에서 무겁게 끊기는 일자 커트는 각을 더 강조할 수 있습니다.'],
+'하트형':['광대 바깥만 강조하기보다 볼 중앙에 블러셔를 부드럽게 연결해 보세요.','턱 주변에 볼륨이 오는 레이어드와 웨이브를 비교해 보세요.','정수리·관자놀이 윗부분에만 볼륨을 집중하면 상안부가 더 넓어 보일 수 있습니다.'],
+'다이아몬드형':['광대 돌출부의 경계를 부드럽게 풀고 볼 안쪽과 위쪽 블러셔를 비교해 보세요.','관자놀이와 턱 주변에 볼륨이 있는 헤어를 시도해 보세요.','광대 높이에서만 크게 부푸는 헤어는 광대를 더 강조할 수 있습니다.']
+};
+function ratioStyle(){const v=state.faceThirds||[33,34,33],mx=Math.max(...v),mn=Math.min(...v);if(mx-mn<5)return['세 구간이 비교적 균형적','과도한 비율 보정보다 얼굴형과 원하는 분위기에 맞춰 블러셔·쉐딩을 조절하세요.','앞머리와 가르마는 자유롭게 비교해 보세요.','길이 차이가 작다면 무리한 음영 보정은 필요하지 않습니다.'];const i=v.indexOf(mx);return [
+['상안부가 상대적으로 긴 편','헤어라인 부근의 옅은 음영으로 이마 노출 길이를 조절해 보세요.','시스루뱅·커튼뱅·잔머리 스타일을 비교해 보세요.','이마를 짧아 보이게 하고 싶다면 정수리만 과하게 높이는 연출은 신중히 선택하세요.'],
+['중안부가 상대적으로 긴 편','블러셔를 볼 중앙에 가로로 배치하고 눈 아래쪽 메이크업으로 시선을 분산해 보세요.','눈가 옆 레이어와 옆 볼륨으로 가로 방향 균형을 시도해 보세요.','콧대 전체를 길게 강조하는 하이라이트는 중안부 길이를 강조할 수 있습니다.'],
+['하안부가 상대적으로 긴 편','턱끝에 소량의 음영을 넣고 립 중심을 살짝 위쪽에 두는 방법을 비교해 보세요.','턱 주변에 볼륨이 있는 헤어스타일을 시도해 보세요.','턱끝만 강하게 밝히는 하이라이트는 하관 길이를 강조할 수 있습니다.']
+][i]}
+function faceStyleCards(r){const f=styleByFace[r.title],v=ratioStyle();const card=(tag,title,body)=>`<div class="style-advice"><span class="eyebrow">${tag}</span><h3>${title}</h3><p>${esc(body)}</p></div>`;return `<div class="style-heading"><h2>맞춤 스타일링 리포트</h2><p class="muted">얼굴형과 상·중·하안부 비율을 함께 고려합니다.</p></div>${f?card('MAKEUP','얼굴형 메이크업',f[0])+card('HAIR','얼굴형 헤어',f[1])+card('CAUTION','얼굴형에서 주의할 연출',f[2]):card('FACE','얼굴형 추가 확인','유형을 확정하기 어려우므로 얼굴형별 추천은 보류합니다.')}${card('PROPORTION',v[0],'설정한 비율 '+(state.faceThirds||[33,34,33]).join(':')+'에 따른 참고 결과입니다.')}${card('MAKEUP','비율 보완 메이크업',v[1])}${card('HAIR','비율 보완 헤어',v[2])}${card('CAUTION','비율 보정 시 피할 연출',v[3])}` }
 function faceResult(){const a=faceAnswers;const known=Object.keys(a).filter(i=>!faceQs[i][1][a[i]].includes('모르겠')).length;
 const score={'계란형':0,'둥근형':0,'긴형':0,'각진형':0,'하트형':0,'다이아몬드형':0};
 const add=(type,n)=>score[type]+=n;
