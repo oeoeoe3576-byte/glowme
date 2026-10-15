@@ -39,3 +39,8 @@ Not deployed. Connected GitHub returned no accessible repositories; connected Ve
 
 ## Important security note
 The JSON importer checks top-level structure but is not a secure trust boundary for untrusted backups. This browser-local demo is not ready for public multi-user use. Before cloud launch: replace inline event handlers, implement a proper backend with authentication/RLS, rate limits, content moderation, and production QA.
+
+
+## Supabase account sync (v3)
+
+The app uses Supabase Auth and `public.user_data` with row-level security. Apply the SQL in `supabase/schema.sql` before testing. Confirm the Supabase Auth Site URL matches the deployed site. Email verification may be required. Personal data is stored per signed-in user. Community posts remain local drafts only, not a multi-user backend. Supabase publishable key is safe for browser use; never add secret/service-role keys to the frontend.
