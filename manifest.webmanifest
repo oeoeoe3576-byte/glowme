@@ -1,1 +1,17 @@
-{"name":"GLOWME — Your Beauty Space","short_name":"GLOWME","start_url":"./","display":"standalone","background_color":"#fdfbf9","theme_color":"#f6f0eb","description":"Explore your beauty, manage skincare routines, and discover your personal style.","icons":[{"src":"icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]}
+{
+  "name": "GLOWME — Your Beauty Space",
+  "short_name": "GLOWME",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#fffefa",
+  "theme_color": "#fffefa",
+  "description": "Explore your beauty, manage skincare routines, and discover your personal style.",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

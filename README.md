@@ -1,46 +1,33 @@
-# GLOWME — Working PWA prototype
+# GLOWME
 
-A dependency-free, English-first, mobile-focused GLOWME beauty app prototype.
+Mobile beauty journal and personal beauty shelf, deployed at https://glowme-bice.vercel.app/.
 
-## Included
-- Today: AM/PM routine checklists and completion progress
-- Analyze: 3-question face-style and color-preference explorers, save results
-- Beauty Lab: educational beauty guides
-- Community: locally saved post drafts, filter, like and delete (NOT public/social)
-- My Beauty: skin profile, product shelf, AM/PM routine builder, skin diary
-- Local JSON export and complete data deletion
-- Installable PWA manifest and service worker
+## Run and verify
 
-## Run locally
-Run `python3 -m http.server 8000` inside this directory, then open `http://localhost:8000`.
+Serve this directory with `python -m http.server 8000`, then open http://localhost:8000. No build step or npm dependencies are required. Run `node tests/regression.cjs` for regression checks.
 
-## Important limitations
-- No backend, accounts, cross-device sync, real community, payment, affiliate links, camera AI, or automatic product database.
-- All data stays in the browser's localStorage; clearing browser data removes it.
-- Educational style exploration only, not diagnostic AI or medical advice.
-- The sample community posts are fictional placeholders, not real people.
+## Features
 
-## Production next steps
-1. Choose a commercial-use-permitted hosting plan and deploy via GitHub.
-2. Add Supabase Auth, row-level-security, cloud persistence and backups.
-3. Build moderation/report/blocking workflows before enabling public community posting.
-4. Privacy policy, terms, deletion controls, security audit and accessibility QA.
-5. Add monetization only after validation, with explicit user approval for costs.
+- Editorial home with categories, real product photography, magazine articles and daily routines.
+- Six face-shape guides with distinct illustrated models and blush/contour placements.
+- Four facial-proportion comparisons, each with hairstyle and makeup references.
+- Four skin texture references with answer-based reasoning and care guidance.
+- Seasonal palettes, realistic hair-texture swatches and shade-specific lip, blush and eye recommendations.
+- Twelve official rom&nd product variants with local photos, exact shade names and official variant links.
+- Existing Supabase login and user_data sync, personal shelf, AM/PM routines, custom product registration, analysis history and JSON backup/import.
 
-## Iteration 2 improvements
-- Browser-local date calculation (avoids UTC date rollover issues).
-- Prevents duplicate product names, case-insensitively.
-- Replaces the day's diary entry instead of creating multiple entries.
-- JSON backup import (max 1 MB) with basic schema checks and explicit overwrite confirmation.
-- Updated service worker cache version to v2.
+## Structure
 
-## Deployment status (2026-10-15)
-Not deployed. Connected GitHub returned no accessible repositories; connected Vercel team uses Hobby plan, which is not appropriate to assume for a commercial service. No payment or plan upgrade authorized.
+`app.js` retains application state, questionnaires, authentication and persistence. `ui.js` renders editorial screens. `styles.css` provides responsive styling. `data/editorial.js` maps images to guidance; `data/products.js` maps verified variants to photos. `sw.js` caches the static app for offline use.
 
-## Important security note
-The JSON importer checks top-level structure but is not a secure trust boundary for untrusted backups. This browser-local demo is not ready for public multi-user use. Before cloud launch: replace inline event handlers, implement a proper backend with authentication/RLS, rate limits, content moderation, and production QA.
+## Image and recommendation provenance
 
+Human illustrations, skin references, hair swatches and the photorealistic home hero are AI-generated educational/editorial assets, explicitly labeled in the app. They are not clinical photographs or real product photographs. Product images come from official romandbeauty.com variant records. See `docs/product-evidence.json`, `docs/source-*.json` and `docs/image-provenance.json`. Seasonal pairings are editorial recommendations, not manufacturer-certified personal-color classifications.
 
-## Supabase account sync (v3)
+## Existing backend
 
-The app uses Supabase Auth and `public.user_data` with row-level security. Apply the SQL in `supabase/schema.sql` before testing. Confirm the Supabase Auth Site URL matches the deployed site. Email verification may be required. Personal data is stored per signed-in user. Community posts remain local drafts only, not a multi-user backend. Supabase publishable key is safe for browser use; never add secret/service-role keys to the frontend.
+Supabase setup is described in `supabase/schema.sql`. The browser uses a publishable key only. Live authentication, RLS and cross-device synchronization need an authorized test account to verify end to end. Product review requests depend on the existing backend table and policies. Community remains local drafts rather than a public social backend.
+
+## Validation
+
+See `docs/qa-report.md` for tested flows and remaining limitations. Questionnaire results are styling/self-observation guidance, not photographic analysis or medical diagnosis.

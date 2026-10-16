@@ -1,0 +1,472 @@
+{
+  "id": 8065369866315,
+  "title": "Better Than Palette",
+  "handle": "better-than-palette",
+  "description": "<p>Most 10-shade palettes look generous until you layer them — similar depths blur together and turn muddy by noon. Better Than Palette runs on rom&amp;nd’s five-level lightness system: ten shades spaced across five systematic levels of light, so every layer builds deeper instead of blending into mush. Pick your garden and stack color like it’s math, not luck.</p>\n<h3>Key Features</h3>\n<ul>\n<li>\n<strong>5 levels of light</strong> — ten shades spaced across five systematic brightness levels, so layers deepen cleanly without muddiness</li>\n<li>\n<strong>Fingertip-first matte</strong> — the ultra-fine formula inherited from Better Than Eyes melts in with body heat and fixes with zero fallout</li>\n<li>\n<strong>4 glitter types</strong> — vaseline, aurora, shimmer, and glitter bomb mix distinct particle sizes for multi-dimensional sparkle</li>\n<li>\n<strong>Endlessly buildable</strong> — one palette covers bare daily looks through full-depth evening definition</li>\n<li>\n<strong>No tools required</strong> — every shade is designed to blend and fix with fingertips alone</li>\n</ul>\n<h3>Shades</h3>\n<ul>\n<li>\n<strong>00 Light &amp; Glitter Garden</strong> — Ten pure glitters, zero mattes. Clear opal, champagne, rose gold, and iced lilac to layer over any look or wear alone.</li>\n<li>\n<strong>01 Pampas Garden</strong> — Peach, coral, and champagne gold over warm ivory. Bright shades that bloom like late spring.</li>\n<li>\n<strong>02 Mahogany Garden</strong> — Caramel, cinnamon, and molten gold deepening into chocolate for a golden hour glow.</li>\n<li>\n<strong>03 Rosebud Garden</strong> — Dusty rose, mauve, and soft pink beige. Cool toned calm with a quietly romantic finish.</li>\n<li>\n<strong>05 Shade &amp; Shadow Garden</strong> — An all-matte lineup of greige, sand, and cocoa in five even steps. The neutral backbone that shades and defines.</li>\n<li>\n<strong>07 Berry Fuchsia Garden</strong> — Fuchsia, p lum, and iced lavender against cool pinks. The boldest garden, made for evening.</li>\n</ul>\n<h3>How to Use</h3>\n<ol>\n<li>\n<strong>Base</strong> — Sweep the lightest matte across the lid as your foundation shade.</li>\n<li>\n<strong>Build</strong> — Layer the next shades one by one, following the lightness order from light to deep.</li>\n<li>\n<strong>Define</strong> — Press the deepest shades into the crease and outer corner for dimension.</li>\n<li>\n<strong>Sparkle</strong> — Tap glitters onto the center of the lid with a fingertip; press, don’t sweep.</li>\n<li>\n<strong>Check your work</strong> — Flip your camera to black and white and watch all five levels of depth show up on your lids.</li>\n</ol>",
+  "published_at": "2026-08-23T00:59:36-04:00",
+  "created_at": "2026-08-22T14:32:56-04:00",
+  "vendor": "rom&nd",
+  "type": "",
+  "tags": [
+    "eye"
+  ],
+  "price": 2900,
+  "price_min": 2900,
+  "price_max": 2900,
+  "available": true,
+  "price_varies": false,
+  "compare_at_price": 3400,
+  "compare_at_price_min": 3400,
+  "compare_at_price_max": 3400,
+  "compare_at_price_varies": false,
+  "variants": [
+    {
+      "id": 43062400352331,
+      "title": "00 Light & Glitter Garden",
+      "option1": "00 Light & Glitter Garden",
+      "option2": null,
+      "option3": null,
+      "sku": "UBTP00",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": {
+        "id": 37197290340427,
+        "product_id": 8065369866315,
+        "position": 1,
+        "created_at": "2026-08-22T14:37:09-04:00",
+        "updated_at": "2026-08-23T10:27:21-04:00",
+        "alt": "Better Than Palette - rom&nd",
+        "width": 2000,
+        "height": 2000,
+        "src": "https://cdn.shopify.com/s/files/1/0598/8578/1067/files/00.png?v=1787495241",
+        "variant_ids": [
+          43062400352331
+        ]
+      },
+      "available": true,
+      "name": "Better Than Palette - 00 Light & Glitter Garden",
+      "public_title": "00 Light & Glitter Garden",
+      "options": [
+        "00 Light & Glitter Garden"
+      ],
+      "price": 2900,
+      "weight": 0,
+      "compare_at_price": 3400,
+      "inventory_management": "shopify",
+      "barcode": "8800344921885",
+      "featured_media": {
+        "alt": "Better Than Palette - rom&nd",
+        "id": 28349806706763,
+        "position": 1,
+        "preview_image": {
+          "aspect_ratio": 1.0,
+          "height": 2000,
+          "width": 2000,
+          "src": "https://cdn.shopify.com/s/files/1/0598/8578/1067/files/00.png?v=1787495241"
+        }
+      },
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "quantity_price_breaks": [],
+      "requires_selling_plan": false,
+      "selling_plan_allocations": []
+    },
+    {
+      "id": 43062400385099,
+      "title": "01 Pampas Garden",
+      "option1": "01 Pampas Garden",
+      "option2": null,
+      "option3": null,
+      "sku": "UBTP01",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": {
+        "id": 37197290373195,
+        "product_id": 8065369866315,
+        "position": 2,
+        "created_at": "2026-08-22T14:37:09-04:00",
+        "updated_at": "2026-08-23T10:27:21-04:00",
+        "alt": "Better Than Palette - rom&nd",
+        "width": 2000,
+        "height": 2000,
+        "src": "https://cdn.shopify.com/s/files/1/0598/8578/1067/files/01_5d3a5637-481f-44b5-a105-2d5bd67e8d34.png?v=1787495241",
+        "variant_ids": [
+          43062400385099
+        ]
+      },
+      "available": true,
+      "name": "Better Than Palette - 01 Pampas Garden",
+      "public_title": "01 Pampas Garden",
+      "options": [
+        "01 Pampas Garden"
+      ],
+      "price": 2900,
+      "weight": 0,
+      "compare_at_price": 3400,
+      "inventory_management": "shopify",
+      "barcode": "8800344921892",
+      "featured_media": {
+        "alt": "Better Than Palette - rom&nd",
+        "id": 28349806739531,
+        "position": 2,
+        "preview_image": {
+          "aspect_ratio": 1.0,
+          "height": 2000,
+          "width": 2000,
+          "src": "https://cdn.shopify.com/s/files/1/0598/8578/1067/files/01_5d3a5637-481f-44b5-a105-2d5bd67e8d34.png?v=1787495241"
+        }
+      },
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "quantity_price_breaks": [],
+      "requires_selling_plan": false,
+      "selling_plan_allocations": []
+    },
+    {
+      "id": 43062400417867,
+      "title": "02 Mahogany Garden",
+      "option1": "02 Mahogany Garden",
+      "option2": null,
+      "option3": null,
+      "sku": "UBTP02",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": {
+        "id": 37197290405963,
+        "product_id": 8065369866315,
+        "position": 3,
+        "created_at": "2026-08-22T14:37:09-04:00",
+        "updated_at": "2026-08-23T10:27:21-04:00",
+        "alt": "Better Than Palette - rom&nd",
+        "width": 2000,
+        "height": 2000,
+        "src": "https://cdn.shopify.com/s/files/1/0598/8578/1067/files/02_0387c38d-272e-498a-a534-5d2a6577c87e.png?v=1787495241",
+        "variant_ids": [
+          43062400417867
+        ]
+      },
+      "available": true,
+      "name": "Better Than Palette - 02 Mahogany Garden",
+      "public_title": "02 Mahogany Garden",
+      "options": [
+        "02 Mahogany Garden"
+      ],
+      "price": 2900,
+      "weight": 0,
+      "compare_at_price": 3400,
+      "inventory_management": "shopify",
+      "barcode": "8800344921908",
+      "featured_media": {
+        "alt": "Better Than Palette - rom&nd",
+        "id": 28349806772299,
+        "position": 3,
+        "preview_image": {
+          "aspect_ratio": 1.0,
+          "height": 2000,
+          "width": 2000,
+          "src": "https://cdn.shopify.com/s/files/1/0598/8578/1067/files/02_0387c38d-272e-498a-a534-5d2a6577c87e.png?v=1787495241"
+        }
+      },
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "quantity_price_breaks": [],
+      "requires_selling_plan": false,
+      "selling_plan_allocations": []
+    },
+    {
+      "id": 43062400450635,
+      "title": "03 Rosebud Garden",
+      "option1": "03 Rosebud Garden",
+      "option2": null,
+      "option3": null,
+      "sku": "UBTP03",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": {
+        "id": 37197290438731,
+        "product_id": 8065369866315,
+        "position": 4,
+        "created_at": "2026-08-22T14:37:09-04:00",
+        "updated_at": "2026-08-23T10:27:21-04:00",
+        "alt": "Better Than Palette - rom&nd",
+        "width": 2000,
+        "height": 2000,
+        "src": "https://cdn.shopify.com/s/files/1/0598/8578/1067/files/03_f3858ebc-fcbb-440f-a970-a732a6d866ec.png?v=1787495241",
+        "variant_ids": [
+          43062400450635
+        ]
+      },
+      "available": true,
+      "name": "Better Than Palette - 03 Rosebud Garden",
+      "public_title": "03 Rosebud Garden",
+      "options": [
+        "03 Rosebud Garden"
+      ],
+      "price": 2900,
+      "weight": 0,
+      "compare_at_price": 3400,
+      "inventory_management": "shopify",
+      "barcode": "8800344921915",
+      "featured_media": {
+        "alt": "Better Than Palette - rom&nd",
+        "id": 28349806805067,
+        "position": 4,
+        "preview_image": {
+          "aspect_ratio": 1.0,
+          "height": 2000,
+          "width": 2000,
+          "src": "https://cdn.shopify.com/s/files/1/0598/8578/1067/files/03_f3858ebc-fcbb-440f-a970-a732a6d866ec.png?v=1787495241"
+        }
+      },
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "quantity_price_breaks": [],
+      "requires_selling_plan": false,
+      "selling_plan_allocations": []
+    },
+    {
+      "id": 43062400483403,
+      "title": "05 Shade & Shadow Garden",
+      "option1": "05 Shade & Shadow Garden",
+      "option2": null,
+      "option3": null,
+      "sku": "UBTP05",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": {
+        "id": 37197290471499,
+        "product_id": 8065369866315,
+        "position": 5,
+        "created_at": "2026-08-22T14:37:09-04:00",
+        "updated_at": "2026-08-23T10:27:21-04:00",
+        "alt": "Better Than Palette - rom&nd",
+        "width": 2000,
+        "height": 2000,
+        "src": "https://cdn.shopify.com/s/files/1/0598/8578/1067/files/05_4963a64a-0015-4849-b083-1de865787125.png?v=1787495241",
+        "variant_ids": [
+          43062400483403
+        ]
+      },
+      "available": true,
+      "name": "Better Than Palette - 05 Shade & Shadow Garden",
+      "public_title": "05 Shade & Shadow Garden",
+      "options": [
+        "05 Shade & Shadow Garden"
+      ],
+      "price": 2900,
+      "weight": 0,
+      "compare_at_price": 3400,
+      "inventory_management": "shopify",
+      "barcode": "8800344921922",
+      "featured_media": {
+        "alt": "Better Than Palette - rom&nd",
+        "id": 28349806837835,
+        "position": 5,
+        "preview_image": {
+          "aspect_ratio": 1.0,
+          "height": 2000,
+          "width": 2000,
+          "src": "https://cdn.shopify.com/s/files/1/0598/8578/1067/files/05_4963a64a-0015-4849-b083-1de865787125.png?v=1787495241"
+        }
+      },
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "quantity_price_breaks": [],
+      "requires_selling_plan": false,
+      "selling_plan_allocations": []
+    },
+    {
+      "id": 43062400516171,
+      "title": "07 Berry Fuchsia Garden",
+      "option1": "07 Berry Fuchsia Garden",
+      "option2": null,
+      "option3": null,
+      "sku": "UBTP07",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": {
+        "id": 37197290897483,
+        "product_id": 8065369866315,
+        "position": 6,
+        "created_at": "2026-08-22T14:37:17-04:00",
+        "updated_at": "2026-08-23T10:27:21-04:00",
+        "alt": "Better Than Palette - rom&nd",
+        "width": 2000,
+        "height": 2000,
+        "src": "https://cdn.shopify.com/s/files/1/0598/8578/1067/files/07_aed6f572-893e-4b56-9f7d-c6caffc9f8a0.png?v=1787495241",
+        "variant_ids": [
+          43062400516171
+        ]
+      },
+      "available": true,
+      "name": "Better Than Palette - 07 Berry Fuchsia Garden",
+      "public_title": "07 Berry Fuchsia Garden",
+      "options": [
+        "07 Berry Fuchsia Garden"
+      ],
+      "price": 2900,
+      "weight": 0,
+      "compare_at_price": 3400,
+      "inventory_management": "shopify",
+      "barcode": "8800344921939",
+      "featured_media": {
+        "alt": "Better Than Palette - rom&nd",
+        "id": 28349807263819,
+        "position": 6,
+        "preview_image": {
+          "aspect_ratio": 1.0,
+          "height": 2000,
+          "width": 2000,
+          "src": "https://cdn.shopify.com/s/files/1/0598/8578/1067/files/07_aed6f572-893e-4b56-9f7d-c6caffc9f8a0.png?v=1787495241"
+        }
+      },
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "quantity_price_breaks": [],
+      "requires_selling_plan": false,
+      "selling_plan_allocations": []
+    }
+  ],
+  "images": [
+    "//cdn.shopify.com/s/files/1/0598/8578/1067/files/00.png?v=1787495241",
+    "//cdn.shopify.com/s/files/1/0598/8578/1067/files/01_5d3a5637-481f-44b5-a105-2d5bd67e8d34.png?v=1787495241",
+    "//cdn.shopify.com/s/files/1/0598/8578/1067/files/02_0387c38d-272e-498a-a534-5d2a6577c87e.png?v=1787495241",
+    "//cdn.shopify.com/s/files/1/0598/8578/1067/files/03_f3858ebc-fcbb-440f-a970-a732a6d866ec.png?v=1787495241",
+    "//cdn.shopify.com/s/files/1/0598/8578/1067/files/05_4963a64a-0015-4849-b083-1de865787125.png?v=1787495241",
+    "//cdn.shopify.com/s/files/1/0598/8578/1067/files/07_aed6f572-893e-4b56-9f7d-c6caffc9f8a0.png?v=1787495241"
+  ],
+  "featured_image": "//cdn.shopify.com/s/files/1/0598/8578/1067/files/00.png?v=1787495241",
+  "options": [
+    {
+      "name": "Shade",
+      "position": 1,
+      "values": [
+        "00 Light & Glitter Garden",
+        "01 Pampas Garden",
+        "02 Mahogany Garden",
+        "03 Rosebud Garden",
+        "05 Shade & Shadow Garden",
+        "07 Berry Fuchsia Garden"
+      ]
+    }
+  ],
+  "url": "/products/better-than-palette",
+  "media": [
+    {
+      "alt": "Better Than Palette - rom&nd",
+      "id": 28349806706763,
+      "position": 1,
+      "preview_image": {
+        "aspect_ratio": 1.0,
+        "height": 2000,
+        "width": 2000,
+        "src": "https://cdn.shopify.com/s/files/1/0598/8578/1067/files/00.png?v=1787495241"
+      },
+      "aspect_ratio": 1.0,
+      "height": 2000,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0598/8578/1067/files/00.png?v=1787495241",
+      "width": 2000
+    },
+    {
+      "alt": "Better Than Palette - rom&nd",
+      "id": 28349806739531,
+      "position": 2,
+      "preview_image": {
+        "aspect_ratio": 1.0,
+        "height": 2000,
+        "width": 2000,
+        "src": "https://cdn.shopify.com/s/files/1/0598/8578/1067/files/01_5d3a5637-481f-44b5-a105-2d5bd67e8d34.png?v=1787495241"
+      },
+      "aspect_ratio": 1.0,
+      "height": 2000,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0598/8578/1067/files/01_5d3a5637-481f-44b5-a105-2d5bd67e8d34.png?v=1787495241",
+      "width": 2000
+    },
+    {
+      "alt": "Better Than Palette - rom&nd",
+      "id": 28349806772299,
+      "position": 3,
+      "preview_image": {
+        "aspect_ratio": 1.0,
+        "height": 2000,
+        "width": 2000,
+        "src": "https://cdn.shopify.com/s/files/1/0598/8578/1067/files/02_0387c38d-272e-498a-a534-5d2a6577c87e.png?v=1787495241"
+      },
+      "aspect_ratio": 1.0,
+      "height": 2000,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0598/8578/1067/files/02_0387c38d-272e-498a-a534-5d2a6577c87e.png?v=1787495241",
+      "width": 2000
+    },
+    {
+      "alt": "Better Than Palette - rom&nd",
+      "id": 28349806805067,
+      "position": 4,
+      "preview_image": {
+        "aspect_ratio": 1.0,
+        "height": 2000,
+        "width": 2000,
+        "src": "https://cdn.shopify.com/s/files/1/0598/8578/1067/files/03_f3858ebc-fcbb-440f-a970-a732a6d866ec.png?v=1787495241"
+      },
+      "aspect_ratio": 1.0,
+      "height": 2000,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0598/8578/1067/files/03_f3858ebc-fcbb-440f-a970-a732a6d866ec.png?v=1787495241",
+      "width": 2000
+    },
+    {
+      "alt": "Better Than Palette - rom&nd",
+      "id": 28349806837835,
+      "position": 5,
+      "preview_image": {
+        "aspect_ratio": 1.0,
+        "height": 2000,
+        "width": 2000,
+        "src": "https://cdn.shopify.com/s/files/1/0598/8578/1067/files/05_4963a64a-0015-4849-b083-1de865787125.png?v=1787495241"
+      },
+      "aspect_ratio": 1.0,
+      "height": 2000,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0598/8578/1067/files/05_4963a64a-0015-4849-b083-1de865787125.png?v=1787495241",
+      "width": 2000
+    },
+    {
+      "alt": "Better Than Palette - rom&nd",
+      "id": 28349807263819,
+      "position": 6,
+      "preview_image": {
+        "aspect_ratio": 1.0,
+        "height": 2000,
+        "width": 2000,
+        "src": "https://cdn.shopify.com/s/files/1/0598/8578/1067/files/07_aed6f572-893e-4b56-9f7d-c6caffc9f8a0.png?v=1787495241"
+      },
+      "aspect_ratio": 1.0,
+      "height": 2000,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0598/8578/1067/files/07_aed6f572-893e-4b56-9f7d-c6caffc9f8a0.png?v=1787495241",
+      "width": 2000
+    }
+  ],
+  "requires_selling_plan": false,
+  "selling_plan_groups": []
+}

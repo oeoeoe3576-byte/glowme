@@ -1,0 +1,6 @@
+scripts/import-images.cjs
+scripts/implement.cjs
+scripts/refine.cjs
+docs/screenshots/
+scripts/extend-tests.cjs
+scripts/finish-fixes.cjs
