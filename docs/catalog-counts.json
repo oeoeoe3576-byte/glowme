@@ -32,11 +32,11 @@
   "toneCoverage": {
     "봄 웜 라이트": 28,
     "봄 웜 브라이트": 44,
-    "여름 쿨 라이트": 39,
+    "여름 쿨 라이트": 38,
     "여름 쿨 뮤트": 32,
-    "가을 웜 뮤트": 60,
-    "가을 웜 딥": 74,
-    "겨울 쿨 브라이트": 34,
+    "가을 웜 뮤트": 59,
+    "가을 웜 딥": 75,
+    "겨울 쿨 브라이트": 33,
     "겨울 쿨 딥": 49
   },
   "counting": "Color = distinct purchasable shade option; care = distinct product excluding size, bundle and gift duplicates; tones are editorial suggestions based on source color descriptions, not brand-certified diagnosis."

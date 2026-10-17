@@ -6,7 +6,7 @@ labels={'Lip':'립','Blush':'블러셔','Eyeshadow':'아이섀도','Foundation':
 def plain(x):return re.sub(r'\s+',' ',html.unescape(re.sub('<[^>]+>',' ',x or ''))).strip()
 def category(p):
  title=p['title'].lower();typ=p['product_type'].lower();s=title+' '+typ
- if re.search(r'full collection|summer pack|2x|3x|1x free|2-pack|3-pack|free gift|blister|\bcard\b|toner pads|eye primer',title):return None
+ if re.search(r'lip butter|fruit fetish|lux balm|full collection|summer pack|2x|3x|1x free|2-pack|3-pack|free gift|blister|\bcard\b|toner pads|eye primer',title):return None
  if re.search(r'\b(set|duo|trio|kit|bundle|brush|puff|gift|refill|mini|travel|sample|pouch|bag|merch|mirror|sponge|body|hand|hair|eye cream|foot|mask pack|sheet mask|liner|pencil|mascara|concealer|highlighter|bronzer)\b',s):return None
  if 'lip' in s and 'cheek' in s:return 'Blush'
  if re.search('blush|cheek',s):return 'Blush'
@@ -58,6 +58,7 @@ for f in root.glob('docs/catalog-sources/*.json'):
    shade=v['title'] if v['title']!='Default Title' else p['title']
    desc=plain((im.get('alt') or '')+' '+shade)
    if single:desc+=' '+re.split(r'kakadu|cherry oil|plum oil|seed oil|infused|extract|ingredients|formula|blend of|nourishing|enriched|marshmallow|cupua|shea|vitamin',body,flags=re.I)[0][:450]
+   desc=re.sub(r'\bwith (?:a |an )?[^.!?;]*?flavo(?:u)?r', '', desc, flags=re.I)
    desc=re.sub(r'\b(?:not|without)\b[^.!?;]{0,100}', '', desc, flags=re.I)
    # Multi-variant product copy must not be used to classify every shade alike.
    tones=[tone for tone,pat in rules if re.search(r'\b(?:'+pat+r')\b',desc,re.I)] if cat in ['Lip','Blush','Eyeshadow'] else []

@@ -228,116 +228,6 @@
     "verifiedAt": "2026-10-16"
   },
   {
-    "id": "kyliecosmetics-47729141547250",
-    "brand": "카일리 코스메틱",
-    "name": "Lip Butter · peach mango",
-    "officialShade": "peach mango",
-    "variantId": 47729141547250,
-    "source": "https://kyliecosmetics.com/products/lip-butter?variant=47729141547250",
-    "imageSource": "https://cdn.shopify.com/s/files/1/0662/4598/4498/files/KJC_LIP_25_PeachMango_Stylized_Closed.jpg?v=1773866296",
-    "image": "assets/products/kyliecosmetics-47729141547250.webp",
-    "imageEvidence": "variant_image",
-    "sourceType": "brand",
-    "tones": [
-      "봄 웜 라이트"
-    ],
-    "undertone": "",
-    "toneEvidence": "| peach mango",
-    "verifiedAt": "2026-10-17"
-  },
-  {
-    "id": "milanicosmetics-41029643763888",
-    "brand": "밀라니",
-    "name": "Fruit Fetish Lip Oils · 130 Raspberry Peach",
-    "officialShade": "130 Raspberry Peach",
-    "variantId": 41029643763888,
-    "source": "https://milanicosmetics.com/products/fruit-fetish-lip-oils?variant=41029643763888",
-    "imageSource": "https://cdn.shopify.com/s/files/1/1824/2901/files/1_FruitFetish_LipOil_130_PDP_ProductWithSwatch.png?v=1762827070",
-    "image": "assets/products/milanicosmetics-41029643763888.webp",
-    "imageEvidence": "variant_image",
-    "sourceType": "brand",
-    "tones": [
-      "봄 웜 라이트"
-    ],
-    "undertone": "",
-    "toneEvidence": "FruitFetish_LipOil_130 130 Raspberry Peach",
-    "verifiedAt": "2026-10-17"
-  },
-  {
-    "id": "milanicosmetics-42309857083568",
-    "brand": "밀라니",
-    "name": "Fruit Fetish Lip Oils - Raspberry Peach · 130 Raspberry Peach",
-    "officialShade": "130 Raspberry Peach",
-    "variantId": 42309857083568,
-    "source": "https://milanicosmetics.com/products/copy-of-fruit-fetish-lip-oils-2?variant=42309857083568",
-    "imageSource": "https://cdn.shopify.com/s/files/1/1824/2901/products/LOI175_FRUIT-FETISH-LIP-OIL_130_PDP_1_2f4fa005-8ec7-4821-b1cf-0a29a2356f9f.png?v=1673547176",
-    "image": "assets/products/milanicosmetics-42309857083568.webp",
-    "imageEvidence": "variant_image",
-    "sourceType": "brand",
-    "tones": [
-      "봄 웜 라이트"
-    ],
-    "undertone": "",
-    "toneEvidence": "130 Raspberry Peach Hint - it’s all about the tint! Fruit Fetish Lip Oils deliver instant hydration, and glossy shine in a never sticky ",
-    "verifiedAt": "2026-10-17"
-  },
-  {
-    "id": "milanicosmetics-31902773739614",
-    "brand": "밀라니",
-    "name": "Fruit Fetish Lip Balm · 130 Dragon Fruit Peach",
-    "officialShade": "130 Dragon Fruit Peach",
-    "variantId": 31902773739614,
-    "source": "https://milanicosmetics.com/products/fruit-fetish-lip-balm?variant=31902773739614",
-    "imageSource": "https://cdn.shopify.com/s/files/1/1824/2901/files/1_FruitFetish_LipBlam_130_PDP_PoductWithSwatch.png?v=1688608012",
-    "image": "assets/products/milanicosmetics-31902773739614.webp",
-    "imageEvidence": "variant_image",
-    "sourceType": "brand",
-    "tones": [
-      "봄 웜 라이트"
-    ],
-    "undertone": "",
-    "toneEvidence": "fruit fetish lip balm 130 130 Dragon Fruit Peach",
-    "verifiedAt": "2026-10-17"
-  },
-  {
-    "id": "milkmakeup-45034216063161",
-    "brand": "밀크 메이크업",
-    "name": "Balmade Electrolyte Tinted Lip Balm · Ion - Light pink with a white peach flavor",
-    "officialShade": "Ion - Light pink with a white peach flavor",
-    "variantId": 45034216063161,
-    "source": "https://milkmakeup.com/products/balmade-electrolyte-tinted-lip-balm?variant=45034216063161",
-    "imageSource": "https://cdn.shopify.com/s/files/1/0572/3645/5609/files/ION-Balmade-MMU-2000x2000-ECOMM_3bc3a9f4-48f3-4767-98d8-415a85a81854.jpg?v=1773977716",
-    "image": "assets/products/milkmakeup-45034216063161.webp",
-    "imageEvidence": "variant_image",
-    "sourceType": "brand",
-    "tones": [
-      "봄 웜 라이트",
-      "여름 쿨 라이트"
-    ],
-    "undertone": "",
-    "toneEvidence": "Milk Makeup Balmade Electrolyte Tinted Lip Balm Lip Ion - Light pink with a white peach flavor Ion - Light pink with a white peach flavor",
-    "verifiedAt": "2026-10-17"
-  },
-  {
-    "id": "milkmakeup-45034576052409",
-    "brand": "밀크 메이크업",
-    "name": "Balmade Electrolyte Tinted Lip Balm · Pump - Warm beige with an apricot twist flavor",
-    "officialShade": "Pump - Warm beige with an apricot twist flavor",
-    "variantId": 45034576052409,
-    "source": "https://milkmakeup.com/products/balmade-electrolyte-tinted-lip-balm?variant=45034576052409",
-    "imageSource": "https://cdn.shopify.com/s/files/1/0572/3645/5609/files/PUMP-Balmade-MMU-2000x2000-ECOMM_96a516f5-da56-4302-b30c-d8d04ff2e1d2.jpg?v=1774047829",
-    "image": "assets/products/milkmakeup-45034576052409.webp",
-    "imageEvidence": "variant_image",
-    "sourceType": "brand",
-    "tones": [
-      "봄 웜 라이트",
-      "가을 웜 뮤트"
-    ],
-    "undertone": "",
-    "toneEvidence": "Milk Makeup Balmade Electrolyte Tinted Lip Balm Lip Pump - Warm beige with an apricot twist flavor Pump - Warm beige with an apricot twist flavor",
-    "verifiedAt": "2026-10-17"
-  },
-  {
     "id": "peachandlily-41634324348999",
     "brand": "Peach & Lily",
     "name": "Collagen Cushion Peptide Lip Balm · 12ml / Sheer Peach",
@@ -392,6 +282,114 @@
     "verifiedAt": "2026-10-17"
   },
   {
+    "id": "romandbeauty-41629773824075",
+    "brand": "롬앤",
+    "name": "THE JUICY LASTING TINT · PEACH PEACH ME",
+    "officialShade": "PEACH PEACH ME",
+    "variantId": 41629773824075,
+    "source": "https://romandbeauty.com/products/the-juicy-lasting-tint?variant=41629773824075",
+    "imageSource": "https://cdn.shopify.com/s/files/1/0598/8578/1067/files/23_peach_peach_me_1_54eb0f60-7bda-4ab1-8c53-d393e8780dd3.jpg?v=1774510656",
+    "image": "assets/products/romandbeauty-41629773824075.webp",
+    "imageEvidence": "variant_image",
+    "sourceType": "brand",
+    "tones": [
+      "봄 웜 라이트"
+    ],
+    "undertone": "",
+    "toneEvidence": "THE JUICY LASTING TINT - rom&nd PEACH PEACH ME",
+    "verifiedAt": "2026-10-17"
+  },
+  {
+    "id": "romandbeauty-41341721083979",
+    "brand": "롬앤",
+    "name": "JUICY LASTING TINT · MULLED PEACH",
+    "officialShade": "MULLED PEACH",
+    "variantId": 41341721083979,
+    "source": "https://romandbeauty.com/products/juicy-lasting-tint?variant=41341721083979",
+    "imageSource": "https://cdn.shopify.com/s/files/1/0598/8578/1067/files/18_MULLED_PEACH_1.jpg?v=1775131774",
+    "image": "assets/products/romandbeauty-41341721083979.webp",
+    "imageEvidence": "variant_image",
+    "sourceType": "brand",
+    "tones": [
+      "봄 웜 라이트"
+    ],
+    "undertone": "",
+    "toneEvidence": "JUICY LASTING TINT - rom&nd MULLED PEACH",
+    "verifiedAt": "2026-10-17"
+  },
+  {
+    "id": "romandbeauty-41341721411659",
+    "brand": "롬앤",
+    "name": "JUICY LASTING TINT · PEACH HONEY B",
+    "officialShade": "PEACH HONEY B",
+    "variantId": 41341721411659,
+    "source": "https://romandbeauty.com/products/juicy-lasting-tint?variant=41341721411659",
+    "imageSource": "https://cdn.shopify.com/s/files/1/0598/8578/1067/files/36_PEACH_HONEY_B_1.jpg?v=1775132107",
+    "image": "assets/products/romandbeauty-41341721411659.webp",
+    "imageEvidence": "variant_image",
+    "sourceType": "brand",
+    "tones": [
+      "봄 웜 라이트"
+    ],
+    "undertone": "",
+    "toneEvidence": "JUICY LASTING TINT - rom&nd PEACH HONEY B",
+    "verifiedAt": "2026-10-17"
+  },
+  {
+    "id": "saiehello-32497603706940",
+    "brand": "세이",
+    "name": "Slip Tint™ Tinted Moisturizer · Two: Very Light - Peach",
+    "officialShade": "Two: Very Light - Peach",
+    "variantId": 32497603706940,
+    "source": "https://saiehello.com/products/slip-tint-tinted-moisturizer?variant=32497603706940",
+    "imageSource": "https://cdn.shopify.com/s/files/1/0272/1982/0604/files/Saie_Slip_Tint_Relaunch_shade_02.jpg?v=1753987015",
+    "image": "assets/products/saiehello-32497603706940.webp",
+    "imageEvidence": "variant_image",
+    "sourceType": "brand",
+    "tones": [
+      "봄 웜 라이트"
+    ],
+    "undertone": "",
+    "toneEvidence": "Two: Very Light - Peach Two: Very Light - Peach",
+    "verifiedAt": "2026-10-17"
+  },
+  {
+    "id": "saiehello-32497603772476",
+    "brand": "세이",
+    "name": "Slip Tint™ Tinted Moisturizer · Three: Light to Medium - Peach",
+    "officialShade": "Three: Light to Medium - Peach",
+    "variantId": 32497603772476,
+    "source": "https://saiehello.com/products/slip-tint-tinted-moisturizer?variant=32497603772476",
+    "imageSource": "https://cdn.shopify.com/s/files/1/0272/1982/0604/files/Saie_Slip_Tint_Relaunch_shade_03.jpg?v=1753988045",
+    "image": "assets/products/saiehello-32497603772476.webp",
+    "imageEvidence": "variant_image",
+    "sourceType": "brand",
+    "tones": [
+      "봄 웜 라이트"
+    ],
+    "undertone": "",
+    "toneEvidence": "Three: Light to Medium - Peach Three: Light to Medium - Peach",
+    "verifiedAt": "2026-10-17"
+  },
+  {
+    "id": "saiehello-32501867446332",
+    "brand": "세이",
+    "name": "Slip Tint™ Tinted Moisturizer · Five: Medium - Peach",
+    "officialShade": "Five: Medium - Peach",
+    "variantId": 32501867446332,
+    "source": "https://saiehello.com/products/slip-tint-tinted-moisturizer?variant=32501867446332",
+    "imageSource": "https://cdn.shopify.com/s/files/1/0272/1982/0604/files/Saie_Slip_Tint_Relaunch_shade_05.jpg?v=1753992669",
+    "image": "assets/products/saiehello-32501867446332.webp",
+    "imageEvidence": "variant_image",
+    "sourceType": "brand",
+    "tones": [
+      "봄 웜 라이트"
+    ],
+    "undertone": "",
+    "toneEvidence": "Five: Medium - Peach Five: Medium - Peach",
+    "verifiedAt": "2026-10-17"
+  },
+  {
     "id": "colourpop-42170060439634",
     "brand": "컬러팝",
     "name": "Cloud Whip Blurring Liquid Lipstick · Sky's the Limit",
@@ -442,7 +440,7 @@
       "봄 웜 브라이트"
     ],
     "undertone": "",
-    "toneEvidence": "Experiment 626 Cute and fluffy? More like cute and glossy. This sheer coral red shade comes in the most adorable popsicle packaging with a juicy passion fruit flavor you'll be obsessed with. ",
+    "toneEvidence": "Experiment 626 Cute and fluffy? More like cute and glossy. This sheer coral red shade comes in the most adorable popsicle packaging  you'll be obsessed with. ",
     "verifiedAt": "2026-10-17"
   },
   {
@@ -644,7 +642,7 @@
       "여름 쿨 라이트"
     ],
     "undertone": "",
-    "toneEvidence": "Super Sweet The sweetest experiment yet. This sheer baby pink shade comes in the cutest popsicle packaging with a dreamy coconut flavor that makes every swipe a little vacation. ",
+    "toneEvidence": "Super Sweet The sweetest experiment yet. This sheer baby pink shade comes in the cutest popsicle packaging  that makes every swipe a little vacation. ",
     "verifiedAt": "2026-10-17"
   },
   {
@@ -699,6 +697,24 @@
     ],
     "undertone": "",
     "toneEvidence": "Lavender Lemonade Fresh. Dreamy. Completely obsession-worthy. Lavender Lemonade is a soft lilac Hyper Shine Glossy Lipstick with a mirror-shine gloss that delivers glass-finish color in a single swipe. ",
+    "verifiedAt": "2026-10-17"
+  },
+  {
+    "id": "colourpop-42390853976146",
+    "brand": "컬러팝",
+    "name": "Hyper Shine Glossy Lipstick · A Little Zhuzh",
+    "officialShade": "Default Title",
+    "variantId": 42390853976146,
+    "source": "https://colourpop.com/products/a-little-zhuzh-hyper-shine-glossy-lipstick?variant=42390853976146",
+    "imageSource": "https://cdn.shopify.com/s/files/1/1338/0845/files/HyperShineGlossyLipstick_ALittleZhuzh_ECOM.jpg?v=1780334122",
+    "image": "assets/products/colourpop-42390853976146.webp",
+    "imageEvidence": "single_product_image",
+    "sourceType": "brand",
+    "tones": [
+      "여름 쿨 라이트"
+    ],
+    "undertone": "",
+    "toneEvidence": "A Little Zhuzh The finishing touch your look was missing. A Little Zhuzh is a cool baby pink Hyper Shine Glossy Lipstick with a luminous mirror-shine gloss that takes any look from nice to obsession-worthy. ",
     "verifiedAt": "2026-10-17"
   },
   {
@@ -864,6 +880,24 @@
     ],
     "undertone": "",
     "toneEvidence": "Still That Girl Still That Girl sits right in the middle — a true bubblegum pink that's brighter than a nude gloss but softer than a bold pink. It's the one you reach for on repeat, and the ",
+    "verifiedAt": "2026-10-17"
+  },
+  {
+    "id": "colourpop-42170062536786",
+    "brand": "컬러팝",
+    "name": "Cloud Whip Blurring Liquid Lipstick · Candy Floss",
+    "officialShade": "Default Title",
+    "variantId": 42170062536786,
+    "source": "https://colourpop.com/products/candy-floss-cloud-whip-liquid-lipstick?variant=42170062536786",
+    "imageSource": "https://cdn.shopify.com/s/files/1/1338/0845/files/CloudWhipBlurringLiquidLipstick_CandyFloss_ECOM_107fbdbc-bd85-4f6f-b985-44d138a4b0dc.jpg?v=1786233913",
+    "image": "assets/products/colourpop-42170062536786.webp",
+    "imageEvidence": "single_product_image",
+    "sourceType": "brand",
+    "tones": [
+      "가을 웜 뮤트"
+    ],
+    "undertone": "",
+    "toneEvidence": "Candy Floss The nude that's always right. ☁️ Candy Floss is a warm, flattering nude that blurs softly at the edges — the everyday Cloud Whip you'll live in. ",
     "verifiedAt": "2026-10-17"
   },
   {
@@ -1189,7 +1223,7 @@
       "겨울 쿨 딥"
     ],
     "undertone": "",
-    "toneEvidence": "Short Lord Big gloss energy. This crème rich berry shade commands attention, with a blueberry muffin flavor that's straight-up obsession-worthy. Don't let the name fool you — this one rules. ",
+    "toneEvidence": "Short Lord Big gloss energy. This crème rich berry shade commands attention,  that's straight-up obsession-worthy. Don't let the name fool you — this one rules. ",
     "verifiedAt": "2026-10-17"
   },
   {
@@ -1321,24 +1355,6 @@
     "verifiedAt": "2026-10-17"
   },
   {
-    "id": "colourpop-42170062536786",
-    "brand": "컬러팝",
-    "name": "Cloud Whip Blurring Liquid Lipstick · Candy Floss",
-    "officialShade": "Default Title",
-    "variantId": 42170062536786,
-    "source": "https://colourpop.com/products/candy-floss-cloud-whip-liquid-lipstick?variant=42170062536786",
-    "imageSource": "https://cdn.shopify.com/s/files/1/1338/0845/files/CloudWhipBlurringLiquidLipstick_CandyFloss_ECOM_107fbdbc-bd85-4f6f-b985-44d138a4b0dc.jpg?v=1786233913",
-    "image": "assets/products/colourpop-42170062536786.webp",
-    "imageEvidence": "single_product_image",
-    "sourceType": "brand",
-    "tones": [
-      "가을 웜 뮤트"
-    ],
-    "undertone": "",
-    "toneEvidence": "Candy Floss The nude that's always right. ☁️ Candy Floss is a warm, flattering nude that blurs softly at the edges — the everyday Cloud Whip you'll live in. ",
-    "verifiedAt": "2026-10-17"
-  },
-  {
     "id": "colourpop-41974384558162",
     "brand": "컬러팝",
     "name": "Ultra Glossy Lip · Flynn Rider",
@@ -1371,7 +1387,7 @@
       "가을 웜 뮤트"
     ],
     "undertone": "",
-    "toneEvidence": "Noble Steed The most unexpectedly chic gloss in the swamp. This crème warm taupe is wearable, elevated, and obsession-worthy — with a sweet waffle flavor that's giving cozy morning energy all day. ",
+    "toneEvidence": "Noble Steed The most unexpectedly chic gloss in the swamp. This crème warm taupe is wearable, elevated, and obsession-worthy —  that's giving cozy morning energy all day. ",
     "verifiedAt": "2026-10-17"
   },
   {
@@ -1700,24 +1716,6 @@
     "verifiedAt": "2026-10-17"
   },
   {
-    "id": "colourpop-42390853976146",
-    "brand": "컬러팝",
-    "name": "Hyper Shine Glossy Lipstick · A Little Zhuzh",
-    "officialShade": "Default Title",
-    "variantId": 42390853976146,
-    "source": "https://colourpop.com/products/a-little-zhuzh-hyper-shine-glossy-lipstick?variant=42390853976146",
-    "imageSource": "https://cdn.shopify.com/s/files/1/1338/0845/files/HyperShineGlossyLipstick_ALittleZhuzh_ECOM.jpg?v=1780334122",
-    "image": "assets/products/colourpop-42390853976146.webp",
-    "imageEvidence": "single_product_image",
-    "sourceType": "brand",
-    "tones": [
-      "여름 쿨 라이트"
-    ],
-    "undertone": "",
-    "toneEvidence": "A Little Zhuzh The finishing touch your look was missing. A Little Zhuzh is a cool baby pink Hyper Shine Glossy Lipstick with a luminous mirror-shine gloss that takes any look from nice to obsession-worthy. ",
-    "verifiedAt": "2026-10-17"
-  },
-  {
     "id": "colourpop-42282037411922",
     "brand": "컬러팝",
     "name": "So Juicy Plumping Glossy Lip Oil · Glow Thru It",
@@ -1788,24 +1786,6 @@
     ],
     "undertone": "",
     "toneEvidence": "Cherry Amor Our Number One gloss now with pure, creamy, color and incredible shine. Lips are instantly smoother and voluminous looking.",
-    "verifiedAt": "2026-10-17"
-  },
-  {
-    "id": "fentybeauty-66917461753901",
-    "brand": "펜티 뷰티",
-    "name": "Lux Balm Hydrating Moisture Barrier Lip Balm — Barbados Cherry · Barbados Cherry",
-    "officialShade": "Barbados Cherry",
-    "variantId": 66917461753901,
-    "source": "https://fentybeauty.com/products/lux-balm-hydrating-moisture-barrier-lip-balm-barbados-cherry?variant=66917461753901",
-    "imageSource": "https://cdn.shopify.com/s/files/1/0341/3458/9485/files/FS_SUM26_T2PRODUCT_ECOMM_LUXBALM_1200X1500_72DPI.jpg?v=1782411820",
-    "image": "assets/products/fentybeauty-66917461753901.webp",
-    "imageEvidence": "single_product_image",
-    "sourceType": "brand",
-    "tones": [
-      "겨울 쿨 브라이트"
-    ],
-    "undertone": "",
-    "toneEvidence": "Barbados Cherry Level up with a velvety lip balm in a league of its own. It deeply hydrates, nourishes and strengthens dry, flaky lips all day—leaving a natural finish. Sleek and slim, it’s mess-free and slips comfortably into any pocket.",
     "verifiedAt": "2026-10-17"
   },
   {
@@ -1952,6 +1932,24 @@
     ],
     "undertone": "",
     "toneEvidence": "| craving cherry",
+    "verifiedAt": "2026-10-17"
+  },
+  {
+    "id": "kyliecosmetics-46721447690482",
+    "brand": "카일리 코스메틱",
+    "name": "Lip Oil · chocolate cookie",
+    "officialShade": "chocolate cookie",
+    "variantId": 46721447690482,
+    "source": "https://kyliecosmetics.com/products/lip-oil?variant=46721447690482",
+    "imageSource": "https://cdn.shopify.com/s/files/1/0662/4598/4498/files/KJS_LOIL_24_PP_ChocolateCookie_Stylized.jpg?v=1724366768",
+    "image": "assets/products/kyliecosmetics-46721447690482.webp",
+    "imageEvidence": "variant_image",
+    "sourceType": "brand",
+    "tones": [
+      "가을 웜 딥"
+    ],
+    "undertone": "",
+    "toneEvidence": "| chocolate cookie",
     "verifiedAt": "2026-10-17"
   },
   {

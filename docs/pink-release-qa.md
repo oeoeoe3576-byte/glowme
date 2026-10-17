@@ -10,7 +10,7 @@
 - Optional product choices create AM/PM routines while preserving existing entries; sunscreen is AM-only. Skin diary saves a routine snapshot, comfort and irritation; recent seven-entry summary.
 
 ## Verification
-- `node tests/regression.cjs`: 16 passing tests, including complete color and skin response paths, saved report rerendering, backup schema, catalog counts and routine idempotency.
+- `node tests/regression.cjs`: 17 passing tests, including complete color and skin response paths, saved report rerendering, backup schema, catalog counts and routine idempotency.
 - Actual browser interactions at mobile widths 360, 390 and 430: magazine imagery, community alignment, product filters, foundation labels, heart face questionnaire and ratio slider, care routine creation and diary persistence.
 - Four chosen care products added to existing local state: products 2 -> 6, AM 1 -> 5, PM 0 -> 3. Diary displayed routine snapshot of five unique products.
 - Independent review found ingredient/negation words falsely used as color evidence, two bundled products and legacy withheld reports. All three issues corrected and catalog regenerated.
@@ -18,7 +18,7 @@
 
 ## Limits and follow-up
 - Tone tags are GLOWME editorial recommendations derived from source shade descriptions, not brand-certified personal-color diagnoses. Questionnaire results are styling suggestions, not measured diagnoses.
-- Count is distinct purchasable shade option for color cosmetics, not 100 separate product lines. Each eight-tone group has 28–74 color options overall. Eye-shadow-only spring light (5), spring bright (8) and winter bright (6) remain below ten; no unsupported tags were added to pad these counts.
+- Count is distinct purchasable shade option for color cosmetics, not 100 separate product lines. Each eight-tone group has 28–75 color options overall. Eye-shadow-only spring light (5), spring bright (8) and winter bright (6) remain below ten; no unsupported tags were added to pad these counts.
 - Auth UI and existing Supabase paths retained; authenticated cross-device sign-in was not tested without a user account. Community remains the existing local preview rather than a newly deployed shared backend.
 - Images are associated through published variant metadata; every image was decoded, but 602 images were not individually visually compared with physical packaging.
-- Production deployment verification will be recorded after push.
+- Production commit 4693c67 reached Vercel READY with the glowme-bice.vercel.app alias. Live product-filter testing found flavor-only lip entries and a duplicate retail option; these were replaced with actual color options, and a regression test was added.
