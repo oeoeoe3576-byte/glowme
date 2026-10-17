@@ -31,3 +31,6 @@ Supabase setup is described in `supabase/schema.sql`. The browser uses a publish
 ## Validation
 
 See `docs/qa-report.md` for tested flows and remaining limitations. Questionnaire results are styling/self-observation guidance, not photographic analysis or medical diagnosis.
+
+## 2026-10-17 pink update
+Eight-season styling quiz, product tone filters, 602 product/shade entries, and AM/PM skincare planning are implemented. See [release QA](docs/pink-release-qa.md), [catalog counts](docs/catalog-counts.json), and [source evidence](docs/catalog-evidence.json). Run `node tests/regression.cjs` for regression coverage.

@@ -4,3 +4,17 @@ scripts/refine.cjs
 docs/screenshots/
 scripts/extend-tests.cjs
 scripts/finish-fixes.cjs
+
+docs/catalog-sources/
+docs/catalog-candidates.json
+docs/catalog-selected.json
+docs/catalog-download-errors.json
+scripts/pink-redesign.cjs
+scripts/pink-overrides.css
+scripts/connect-care.cjs
+scripts/update-tests.cjs
+scripts/fix-face-final.cjs
+scripts/final-pink-fixes.cjs
+scripts/legacy-test.cjs
+scripts/finish-catalog.cjs
+docs/catalog-unused/

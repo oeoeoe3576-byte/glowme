@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-17",
+  "total": 602,
+  "counts": {
+    "Lip": 100,
+    "Blush": 100,
+    "Eyeshadow": 100,
+    "Foundation": 122,
+    "Toner": 20,
+    "Skin": 20,
+    "Lotion": 20,
+    "Base": 20,
+    "Sunscreen": 20,
+    "Primer": 20,
+    "Moisturizer": 20,
+    "Serum": 20,
+    "Cleanser": 20
+  },
+  "foundationBrands": [
+    "레어 뷰티",
+    "메이크업 바이 마리오",
+    "미샤",
+    "밀크 메이크업",
+    "베어미네랄",
+    "존스 로드",
+    "카일리 코스메틱",
+    "컬러팝",
+    "타워28",
+    "티르티르",
+    "펜티 뷰티"
+  ],
+  "toneCoverage": {
+    "봄 웜 라이트": 28,
+    "봄 웜 브라이트": 44,
+    "여름 쿨 라이트": 39,
+    "여름 쿨 뮤트": 32,
+    "가을 웜 뮤트": 60,
+    "가을 웜 딥": 74,
+    "겨울 쿨 브라이트": 34,
+    "겨울 쿨 딥": 49
+  },
+  "counting": "Color = distinct purchasable shade option; care = distinct product excluding size, bundle and gift duplicates; tones are editorial suggestions based on source color descriptions, not brand-certified diagnosis."
+}
