@@ -18,3 +18,8 @@ scripts/final-pink-fixes.cjs
 scripts/legacy-test.cjs
 scripts/finish-catalog.cjs
 docs/catalog-unused/
+
+scripts/connect-skincare.cjs
+scripts/skincare-refine.cjs
+scripts/skincare-polish.cjs
+scripts/skincare-finalize.cjs

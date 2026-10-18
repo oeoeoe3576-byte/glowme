@@ -1,0 +1,12 @@
+const fs=require('fs'),vm=require('vm'),assert=require('assert/strict');
+const c={URL,console};vm.createContext(c);
+for(const f of ['commerce.js','routine-model.js'])if(fs.existsSync(f))vm.runInContext(fs.readFileSync(f,'utf8'),c);
+const run=s=>vm.runInContext(s,c);let failures=0;
+function test(n,f){try{f();console.log('PASS '+n)}catch(e){failures++;console.error('FAIL '+n+': '+e.message)}}
+test('purchase links reject active content and embedded credentials',()=>{for(const u of ['javascript:alert(1)','data:text/html,x','https://a:b@example.com','http://example.com'])assert.equal(run('safeShopUrl('+JSON.stringify(u)+')'),'');assert.equal(run("safeShopUrl('https://example.com/p?ref=ok')"),'https://example.com/p?ref=ok')});
+test('unconfigured offers remain ordinary source links',()=>{assert.equal(run("resolveProductOffer({id:'test',source:'https://example.com/p',sourceLabel:'브랜드 제품 확인'},{}).affiliate"),false)});
+test('affiliate disclosure follows only valid configured offer',()=>{assert.equal(run("resolveProductOffer({id:'test',source:'https://example.com'},{test:{url:'https://shop.example.com/p',affiliate:true,merchant:'판매처'}}).affiliate"),true);assert.equal(run("resolveProductOffer({id:'test',source:'https://example.com'},{test:{url:'javascript:alert(1)',affiliate:true}}).affiliate"),false)});
+test('routine steps require titles and explanations and limit count',()=>{assert.throws(()=>run("validateRoutine({title:'내 루틴',steps:[]})"));assert.throws(()=>run("validateRoutine({title:'내 루틴',steps:[{title:'세안',body:''}]})"));assert.throws(()=>run("validateRoutine({title:'내 루틴',steps:Array(7).fill({title:'세안',body:'사용법'})})"));assert.equal(run("validateRoutine({title:'내 루틴',period:'am',steps:[{title:'세안',body:'가볍게 세안',image:'',productId:''}]}).steps.length"),1)});
+test('routine images reject SVG and remote tracking images',()=>{for(const image of ['data:image/svg+xml;base64,AAAA','https://tracker.example.com/photo'])assert.throws(()=>run('validateRoutine('+JSON.stringify({title:'루틴',steps:[{title:'세안',body:'설명',image}]})+')'))});
+test('step reordering preserves photos and product identity',()=>{const result=JSON.parse(run("JSON.stringify(moveRoutineStep([{title:'A',image:'photoA',productId:'a'},{title:'B',image:'photoB',productId:'b'}],0,1))"));assert.equal(result[1].image,'photoA');assert.equal(result[1].productId,'a');assert.equal(run("moveRoutineStep([{title:'A'}],0,-1)[0].title"),'A')});
+process.exitCode=failures?1:0;

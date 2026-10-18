@@ -6,7 +6,7 @@ labels={'Lip':'립','Blush':'블러셔','Eyeshadow':'아이섀도','Foundation':
 def plain(x):return re.sub(r'\s+',' ',html.unescape(re.sub('<[^>]+>',' ',x or ''))).strip()
 def category(p):
  title=p['title'].lower();typ=p['product_type'].lower();s=title+' '+typ
- if re.search(r'lip butter|fruit fetish|lux balm|full collection|summer pack|2x|3x|1x free|2-pack|3-pack|free gift|blister|\bcard\b|toner pads|eye primer',title):return None
+ if re.search(r'curling essence|hair essence|lip butter|fruit fetish|lux balm|full collection|summer pack|2x|3x|1x free|2-pack|3-pack|free gift|blister|\bcard\b|toner pads|eye primer',title):return None
  if re.search(r'\b(set|duo|trio|kit|bundle|brush|puff|gift|refill|mini|travel|sample|pouch|bag|merch|mirror|sponge|body|hand|hair|eye cream|foot|mask pack|sheet mask|liner|pencil|mascara|concealer|highlighter|bronzer)\b',s):return None
  if 'lip' in s and 'cheek' in s:return 'Blush'
  if re.search('blush|cheek',s):return 'Blush'
